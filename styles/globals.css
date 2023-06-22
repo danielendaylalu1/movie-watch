@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+a {
+  display: inline-block;
+}
+.main_header {
+  color: brown;
+}
+.layout_header {
+  font-weight: 700;
+}
+.layout_header span {
+  color: brown;
+  font-weight: 400;
+}
+.navigate {
+  z-index: 100;
+  position: sticky;
+  top: 16rem;
+  display: flex;
+  gap: 2px;
+}
+.navigate_link {
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+.navigate_link:hover {
+  opacity: 1;
+}
+.home_link {
+  border-radius: 10px;
+  opacity: 0.1;
+  padding: 0.8rem;
+}
+.home_link:hover {
+  border: 1px solid white;
+  opacity: 1;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer_text {
+  opacity: 0.3;
+}
