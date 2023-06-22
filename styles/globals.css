@@ -25,9 +25,10 @@ a {
 .navigate {
   z-index: 100;
   position: sticky;
-  top: 16rem;
+  top: 6rem;
   display: flex;
   gap: 2px;
+  width: 10%;
 }
 .navigate_link {
   font-size: 0.9rem;
@@ -44,6 +45,33 @@ a {
 .home_link:hover {
   border: 1px solid white;
   opacity: 1;
+}
+.movies {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.movie {
+  cursor: pointer;
+  margin-top: 2rem;
+  text-align: left;
+  position: relative;
+}
+.movie_img {
+  border: none;
+  border-radius: 10px;
+}
+.movie_desc {
+  display: none;
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+}
+.movie:hover .movie_img {
+  opacity: 0.08;
+}
+.movie:hover .movie_desc {
+  display: block;
 }
 .footer {
   position: fixed;
