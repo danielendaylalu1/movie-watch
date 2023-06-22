@@ -68,7 +68,7 @@ a {
   left: 2rem;
 }
 .movie:hover .movie_img {
-  opacity: 0.08;
+  opacity: 0.09;
 }
 .movie:hover .movie_desc {
   display: block;

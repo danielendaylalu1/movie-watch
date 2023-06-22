@@ -1,0 +1,437 @@
+{
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/error.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/error.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/tvshows/error.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/tvshows/error.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/movies/error.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/movies/error.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/movies/[id]/error.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/movies/[id]/error.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/tvshows/[id]/error.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/tvshows/[id]/error.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    }
+  },
+  "edgeSSRModuleMapping": {},
+  "clientModules": {
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/components/redirect-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/shared/lib/app-router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/error.jsx": {
+      "id": "(app-client)/./app/error.jsx",
+      "name": "*",
+      "chunks": [
+        "app/error:static/chunks/app/error.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/tvshows/[id]/error:static/chunks/app/tvshows/[id]/error.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/tvshows/[id]/error:static/chunks/app/tvshows/[id]/error.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/error.jsx": {
+      "id": "(app-client)/./app/tvshows/error.jsx",
+      "name": "*",
+      "chunks": [
+        "app/tvshows/error:static/chunks/app/tvshows/error.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/movies/error.jsx": {
+      "id": "(app-client)/./app/movies/error.jsx",
+      "name": "*",
+      "chunks": [
+        "app/movies/error:static/chunks/app/movies/error.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/movies/[id]/error.jsx": {
+      "id": "(app-client)/./app/movies/[id]/error.jsx",
+      "name": "*",
+      "chunks": [
+        "app/movies/[id]/error:static/chunks/app/movies/[id]/error.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/tvshows/[id]/page:static/chunks/app/tvshows/[id]/page.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/tvshows/[id]/page:static/chunks/app/tvshows/[id]/page.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/tvshows/[id]/page:static/chunks/app/tvshows/[id]/page.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/tvshows/[id]/page:static/chunks/app/tvshows/[id]/page.js"
+      ],
+      "async": false
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/[id]/error.jsx": {
+      "id": "(app-client)/./app/tvshows/[id]/error.jsx",
+      "name": "*",
+      "chunks": [
+        "app/tvshows/[id]/error:static/chunks/app/tvshows/[id]/error.js"
+      ],
+      "async": false
+    }
+  },
+  "entryCSSFiles": {
+    "/home/daniel/Documents/code along/React/movie-watch/app/error": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/page": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/loading": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/layout": {
+      "modules": [
+        "/home/daniel/Documents/code along/React/movie-watch/styles/globals.css"
+      ],
+      "files": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/error": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/page": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/movies/page": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/movies/error": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/movies/[id]/error": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/movies/[id]/loading": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/movies/[id]/page": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/[id]/error": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/[id]/loading": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/[id]/page": {
+      "modules": [],
+      "files": []
+    }
+  }
+}
