@@ -67,6 +67,9 @@ a {
   bottom: 1rem;
   left: 2rem;
 }
+.movie_desc span {
+  font-weight: 800;
+}
 .movie:hover .movie_img {
   opacity: 0.09;
 }
