@@ -30,7 +30,8 @@ const page = async ({ params }) => {
                 </h3>
 
                 <h3 className="movie_date">
-                  <span>Realse Date :</span> {movie.release_date}
+                  {console.log(movie)}
+                  <span>Realse Date :</span> {movie.first_air_date}
                 </h3>
               </div>
             </div>
