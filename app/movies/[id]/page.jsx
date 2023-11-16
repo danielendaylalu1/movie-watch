@@ -22,10 +22,16 @@ const page = async ({ params }) => {
                 alt={movie.title}
               />
               <div className="movie_desc">
-                <h2 className="movie_name">TITLE : {movie.title}</h2>
-                <h2 className="movie_date">
-                  REALSE DATE : {movie.release_date}
+                <h2 className="movie_name">
+                  Tfirst_air_dateITLE : {movie.title}
                 </h2>
+                <h3 className="movie_overview">
+                  Overview : {movie.overview.slice(0, 200)}
+                </h3>
+
+                <h3 className="movie_date">
+                  REALSE DATE : {movie.release_date}
+                </h3>
               </div>
             </div>
           );

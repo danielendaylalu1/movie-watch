@@ -592,4 +592,7 @@ a {
 .footer_text {
   opacity: 0.3;
 }
+.movie_overview {
+  font-size: 15px;
+}
 
