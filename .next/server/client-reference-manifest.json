@@ -72,49 +72,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/movies/error.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/movies/error.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/movies/[id]/error.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/movies/[id]/error.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/tvshows/error.jsx": {
       "*": {
         "id": "(sc_client)/./app/tvshows/error.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/tvshows/[id]/error.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/tvshows/[id]/error.jsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -287,7 +247,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/tvshows/[id]/error:static/chunks/app/tvshows/[id]/error.js"
+        "app/tvshows/error:static/chunks/app/tvshows/error.js"
       ],
       "async": false
     },
@@ -295,7 +255,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/tvshows/[id]/error:static/chunks/app/tvshows/[id]/error.js"
+        "app/tvshows/error:static/chunks/app/tvshows/error.js"
       ],
       "async": false
     },
@@ -307,54 +267,6 @@
       ],
       "async": false
     },
-    "/home/daniel/Documents/code along/React/movie-watch/app/movies/error.jsx": {
-      "id": "(app-client)/./app/movies/error.jsx",
-      "name": "*",
-      "chunks": [
-        "app/movies/error:static/chunks/app/movies/error.js"
-      ],
-      "async": false
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/tvshows/[id]/page:static/chunks/app/tvshows/[id]/page.js"
-      ],
-      "async": false
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/tvshows/[id]/page:static/chunks/app/tvshows/[id]/page.js"
-      ],
-      "async": false
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/tvshows/[id]/page:static/chunks/app/tvshows/[id]/page.js"
-      ],
-      "async": false
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/tvshows/[id]/page:static/chunks/app/tvshows/[id]/page.js"
-      ],
-      "async": false
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/movies/[id]/error.jsx": {
-      "id": "(app-client)/./app/movies/[id]/error.jsx",
-      "name": "*",
-      "chunks": [
-        "app/movies/[id]/error:static/chunks/app/movies/[id]/error.js"
-      ],
-      "async": false
-    },
     "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/error.jsx": {
       "id": "(app-client)/./app/tvshows/error.jsx",
       "name": "*",
@@ -362,18 +274,14 @@
         "app/tvshows/error:static/chunks/app/tvshows/error.js"
       ],
       "async": false
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/[id]/error.jsx": {
-      "id": "(app-client)/./app/tvshows/[id]/error.jsx",
-      "name": "*",
-      "chunks": [
-        "app/tvshows/[id]/error:static/chunks/app/tvshows/[id]/error.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
     "/home/daniel/Documents/code along/React/movie-watch/app/page": {
+      "modules": [],
+      "files": []
+    },
+    "/home/daniel/Documents/code along/React/movie-watch/app/error": {
       "modules": [],
       "files": []
     },
@@ -385,31 +293,7 @@
         "static/css/app/layout.css"
       ]
     },
-    "/home/daniel/Documents/code along/React/movie-watch/app/error": {
-      "modules": [],
-      "files": []
-    },
     "/home/daniel/Documents/code along/React/movie-watch/app/loading": {
-      "modules": [],
-      "files": []
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/movies/error": {
-      "modules": [],
-      "files": []
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/movies/page": {
-      "modules": [],
-      "files": []
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/movies/[id]/page": {
-      "modules": [],
-      "files": []
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/movies/[id]/error": {
-      "modules": [],
-      "files": []
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/movies/[id]/loading": {
       "modules": [],
       "files": []
     },
@@ -418,18 +302,6 @@
       "files": []
     },
     "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/error": {
-      "modules": [],
-      "files": []
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/[id]/error": {
-      "modules": [],
-      "files": []
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/[id]/loading": {
-      "modules": [],
-      "files": []
-    },
-    "/home/daniel/Documents/code along/React/movie-watch/app/tvshows/[id]/page": {
       "modules": [],
       "files": []
     }

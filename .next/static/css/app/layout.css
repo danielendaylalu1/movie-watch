@@ -536,7 +536,7 @@ a {
 .navigate {
   z-index: 100;
   position: sticky;
-  top: 6rem;
+  top: 15rem;
   display: flex;
   gap: 2px;
   width: 10%;
@@ -550,7 +550,6 @@ a {
 }
 .home_link {
   border-radius: 10px;
-
   padding: 0.8rem;
 }
 .home_link:hover {
