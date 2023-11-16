@@ -550,7 +550,7 @@ a {
 }
 .home_link {
   border-radius: 10px;
-  opacity: 0.1;
+
   padding: 0.8rem;
 }
 .home_link:hover {
@@ -561,6 +561,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 10px;
 }
 .movie {
   cursor: pointer;

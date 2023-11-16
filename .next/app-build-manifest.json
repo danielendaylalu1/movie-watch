@@ -1,19 +1,9 @@
 {
   "pages": {
-    "/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/error.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
-    ],
-    "/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/loading.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -21,25 +11,30 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/tvshows/error": [
+    "/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/tvshows/error.js"
+      "static/chunks/app/error.js"
     ],
-    "/tvshows/page": [
+    "/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/tvshows/page.js"
+      "static/chunks/app/loading.js"
+    ],
+    "/movies/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/movies/error.js"
     ],
     "/movies/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/movies/page.js"
     ],
-    "/movies/error": [
+    "/movies/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/movies/error.js"
+      "static/chunks/app/movies/[id]/page.js"
     ],
     "/movies/[id]/error": [
       "static/chunks/webpack.js",
@@ -51,10 +46,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/movies/[id]/loading.js"
     ],
-    "/movies/[id]/page": [
+    "/tvshows/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/movies/[id]/page.js"
+      "static/chunks/app/tvshows/page.js"
+    ],
+    "/tvshows/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/tvshows/error.js"
     ],
     "/tvshows/[id]/error": [
       "static/chunks/webpack.js",

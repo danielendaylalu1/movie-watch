@@ -9,9 +9,9 @@ const page = async ({ params }) => {
   return (
     <div className="text-center">
       <h2 className="movies_header">{header}</h2>
-      {console.log(movies)}
+
       <div className="movies">
-        {movies.map((movie, index) => {
+        {movies?.map((movie, index) => {
           return (
             <div className="mt-5 movie" key={index}>
               <Image
