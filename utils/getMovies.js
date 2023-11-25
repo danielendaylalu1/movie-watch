@@ -1,8 +1,10 @@
+import axios from "axios";
+
 const apiKey = process.env.NEXT_PUBLIC_MOVIE_API_KEY;
 
 const baseUrl = "https://api.themoviedb.org/3";
 
-export async function getMovies(url, type) {
+export const getMovies = async (url, type) => {
   if (url === "Top Rated") {
     const response = await fetch(
       `${baseUrl}/${type}/top_rated?api_key=${apiKey}&language=en-US&page-6`
@@ -33,4 +35,13 @@ export async function getMovies(url, type) {
     const data = await response.json();
     return data.results;
   }
-}
+};
+
+export const getSingleMovie = async (id) => {
+  try {
+    const result = await axios.get(`https://vidsrc.to/embed/movie/${id}`);
+    return result.data;
+  } catch (error) {
+    console.log(error);
+  }
+};

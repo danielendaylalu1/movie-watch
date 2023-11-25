@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getMovies } from "@utils/getMovies";
+import Link from "next/link";
 
 const page = async ({ params }) => {
   const header = params.id.replace(/-/g, " ");
@@ -8,12 +9,17 @@ const page = async ({ params }) => {
 
   return (
     <div className="text-center">
+      {console.log(movies)}
       <h2 className="movies_header">{header}</h2>
-
       <div className="movies">
         {movies?.map((movie, index) => {
           return (
-            <div className="mt-5 movie" key={index}>
+            <Link
+              className="mt-5 movie"
+              key={index}
+              href={`https://vidsrc.to/embed/movie/${movie.id}`}
+              target="_blank"
+            >
               <Image
                 src={"https://image.tmdb.org/t/p/w500/" + movie.poster_path}
                 className="movie_img"
@@ -33,7 +39,7 @@ const page = async ({ params }) => {
                   <span>Realse Date :</span> {movie.release_date}
                 </h3>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

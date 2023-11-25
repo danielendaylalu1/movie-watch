@@ -60,6 +60,8 @@ a {
 .movie_img {
   border: none;
   border-radius: 10px;
+  height: auto;
+  width: auto;
 }
 .movie_desc {
   display: none;
