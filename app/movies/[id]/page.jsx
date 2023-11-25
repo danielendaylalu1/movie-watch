@@ -9,7 +9,11 @@ const page = async ({ params }) => {
 
   return (
     <div className="text-center">
-      {console.log(movies)}
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3637490368597108"
+        crossorigin="anonymous"
+      ></script>
       <h2 className="movies_header">{header}</h2>
       <div className="movies">
         {movies?.map((movie, index) => {
